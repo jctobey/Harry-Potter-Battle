@@ -1,3 +1,37 @@
 body{
     background-image: URL("../images/harrypotterbackground.png");
+    font-family: 'Uncial Antiqua', cursive;
+    color:#feb236;
+    text-align:center;
+}
+img{
+    
+    border:1px solid red;
+    padding: 20px;
+    background-color:white;
+    height:175px;
+    width:125px;
+}
+.card-img-top{
+    position:relative;
+
+}
+.HP-harry, .HP-dolores, .HP-snape, .HP-voldemort{
+    position:absolute;
+    z-index:1000;
+    left:80px;
+    font-size:14px;
+    bottom:25px;
+    color:black;
+    font-family: 'Trochut', cursive;
+}
+.play{
+    margin-bottom:20px;
+}
+.attack{
+    margin-top:50px;
+
+}
+.attackbutton{
+    display: none;
 }

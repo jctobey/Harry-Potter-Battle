@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Trochut|Uncial+Antiqua" rel="stylesheet">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+
 </head>
+
 <body>
+  <div class="container-fluid">
+    <h1>Harry Potter Battle</h1>
+    <div class="row available">
+      
+      <div class="col-2 harry charAvail char" id="0" >
+      <div class="HP-harry"></div>
+        <img class="card-img-top" src="assets/images/harry.jpg" alt="harry">
+      </div>
+      <div class="col-2 snape charAvail char" id="1" >
+       <div class="HP-snape"></div>
+        <img class="card-img-top" src="assets/images/snape.jpg" alt="snape">
+      </div>
+      <div class="col-2 voldemort charAvail char" id="2">
+       <div class="HP-voldemort"></div>
+        <img class="card-img-top" src="assets/images/voldemort.jpg" alt="voldemort">
+      </div>
+      <div class="col-2 dolores charAvail char" id="3">
+          <div class="HP-dolores"></div>
+        <img class="card-img-top"  src="assets/images/dolores.jpg" alt="dolores">
+      </div>
+    </div>
     
+    <div class="row play">
+      <div class="col-4 player"></div>
+      <div class="col-2 attack-btn-wrapper">
+        <button type="button" class="btn btn-secondary attackbutton">Attack</button>
+      </div>
+      <div class="col-4 game-messages"></div>
+    </div>
+    <div class="row">
+      <div class="col-4 opponent"></div>
+    </div>
+  </div>
+
+
+
+  </div>
 </body>
+
 </html>
